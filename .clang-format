@@ -1,0 +1,8 @@
+BasedOnStyle: Google
+IndentWidth: 4
+AccessModifierOffset: -4
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: true
+ColumnLimit: 120
+Standard: Cpp11

@@ -1,0 +1,11 @@
+.vscode/
+results/
+eval/
+build/
+workspace/
+tmp/
+t_*.sh
+e_*.sh
+
+__pycache__/
+venv/
