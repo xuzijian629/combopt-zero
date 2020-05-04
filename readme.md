@@ -57,6 +57,9 @@ $ ./e_sample.sh
 ## Dataset
 All the test graphs used in our experiments are in `test_graphs/`. Some of them are collected from [Dimacs Vertex Cover instances](https://turing.cs.hbg.psu.edu/txn131/vertex_cover.html) and http://networkrepository.com/.
 
+## Links
+- Prototype for *MaximumIndependentSet* in Python: https://github.com/knshnb/MIS_solver
+
 ## Cite
 Please cite [our paper](https://arxiv.org/abs/1905.11623) if you use our code in your work:
 
