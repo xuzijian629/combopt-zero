@@ -11,7 +11,7 @@ Install [Docker](https://docs.docker.com/get-docker/) and just run `docker/insta
 - By default, it solves *MaximumClique*
 - Change `docker/config.sh` and `{problem}/config.sh` for other settings
 - Hyperparameters are modified so that the training and evaluation can be executed quickly on laptops without GPUs
-- But still, it will obtain pretty good solutions for real-world graphs of thousands of nodes even if trained for only a few minutes (Try and check it by yourself!)
+- But still, **it will obtain pretty good solutions for real-world graphs of thousands of nodes even if trained for only a few minutes** (Try and check it by yourself!)
 - `docker/train.sh` may yield some errors, possibly due to the file system of Docker. Please refer to [FAQs](https://github.com/xuzijian629/combopt-zero/wiki/FAQs).
 
 ## Build and Run
