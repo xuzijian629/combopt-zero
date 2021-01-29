@@ -7,7 +7,7 @@ class IndependentSetLib:
         dir_path = os.path.dirname(os.path.realpath(__file__))
         try:
             self.lib = ctypes.CDLL(
-                '{}/build/lib_indenpendent_set.so'.format(dir_path))
+                '{}/build/lib_independent_set.so'.format(dir_path))
         except OSError:
             self.lib = ctypes.CDLL(
                 '{}/build/lib_independent_set.dylib'.format(dir_path))

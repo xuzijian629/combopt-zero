@@ -9,6 +9,7 @@ def get_graph_from_path(path):
     with open(path) as f:
         data = f.read().split('\n')
         n, m = map(int, data[0].split())
+        g.add_nodes_from(list(range(n)))
         for i in range(m):
             u, v = map(int, data[1 + i].split())
             g.add_edge(u, v)
